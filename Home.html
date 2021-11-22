@@ -1,12 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="PT-br">
+<html lang="PT-br">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cineweb | Home</title>
-    <link rel="stylesheet" href="foundation.css">
+    <link rel="stylesheet" href="Framework - foundation/foundation.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -14,10 +14,69 @@
 
     <div class="grid-container">
         <header id="cabecalho">
-            <img src="Imagens/logo.png" alt="logo" id="logo">
             <button class="menu-icon" type="button" id="menu-hamburger"></button>
+            <div id="div-logo">
+                <img id="logo" src="Imagens/CineWeb logo.png" alt="logo">
+            </div>
+            <nav id="navegar">
+                <ul>
+                    <li>Home</li>
+                    <li>Programação e ingressos</li>
+                    <li>Filmes da semana</li>
+                    <li>Praça de alimentação</li>
+                    <li>História</li>
+                </ul>
+            </nav>
+
         </header>
+
+        <nav id="navegar2">
+            <ul id="menu">
+                <li>Home</li>
+                <li>Programação e ingressos</li>
+                <li>Filmes da semana</li>
+                <li>Praça de alimentação</li>
+                <li>História</li>
+            </ul>
+        </nav>
+
+        <div id="banner">
+            <img style="border-radius: 10px;" src="Imagens/Banner promoção 2.png" alt="Banner com promoção">
+        </div>
     </div>
+
+    <div>
+        <h1>Estreias</h1>
+    </div>
+
+    <div class="content">
+        <div class="slides">
+          <input type="radio" name="slide" id="slide1" checked>
+          <input type="radio" name="slide" id="slide2">
+          <input type="radio" name="slide" id="slide3">
+    
+          <div class="slide s1">
+            <img src="Imagens/Filmes - estreia/Eternos-Marvel-1024x576 (1).jpg" alt="Filme Eternos">
+          </div>
+          <div class="slide">
+            <img src="Imagens/Filmes - estreia/duna-filme-torrent (1).jpg" alt="Filme Duna">
+          </div>
+          <div class="slide">
+            <img src="Imagens/Filmes - estreia/Lugar-Silencioso-2.jpg" alt="Filme Lugar Silencioso 2">
+          </div>
+    
+        </div>
+    
+        <div class="navigation">
+          <label class="bar" for="slide1"></label>
+          <label class="bar" for="slide2"></label>
+          <label class="bar" for="slide3"></label>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+    <script src="Framework - foundation/foundation.js"></script>
+    <script src="Framework - foundation/vendor.js"></script>
 </body>
 
 </html>
