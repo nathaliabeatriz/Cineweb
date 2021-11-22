@@ -40,7 +40,10 @@
     .active #menu{
         display: inline-block;}
 
-    
+    .bar{
+        width: 20px;
+        height: 10px;
+    }
 
 }
 
@@ -89,6 +92,11 @@
         display: none;
     }
 
+    .bar{
+        width: 70px;
+        height: 17px;
+    }
+
 }
 
 #banner{
@@ -112,7 +120,7 @@ body{
     width: 70%;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
 }
@@ -126,16 +134,14 @@ body{
 }
 
 .bar{
-    width: 70px;
-    height: 17px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 50%);
     margin: 6px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .bar:hover{
-    background: white;
+    background: rgba(255, 255, 255, 50%);
     transition: 0.6s;
 }
 
@@ -169,5 +175,11 @@ input{
 
 #slide3:checked ~.s1{
     margin-left: -40%;
+}
+
+#Endereços{
+    color: white;
+    display: inline;
+    border: white;
 }
 
