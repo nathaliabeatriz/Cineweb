@@ -221,5 +221,22 @@ input{
     padding-top: 2%;
 }
 
+#tabela-programação{
+    padding: 8%;
+}
 
+table, th, td{
+    border: 2px solid black;
+}
 
+table{
+    margin-top: 5%;
+}
+th{
+    background-color: #424242;
+    color: white;
+}
+
+label{
+    color: white;
+}
