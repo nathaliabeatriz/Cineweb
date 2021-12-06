@@ -138,9 +138,8 @@ b{
     }
 
     .div-filmes{
-        border-bottom: 1px double white;
         margin-top: 2%;
-        border-radius: 10px;
+        border-radius: 30px;
     }
     
     .imagens-alimentos{
@@ -275,11 +274,7 @@ b{
         position: relative; 
         top: 1.5em;
     }
-
-    .filmes-do-meio{
-        border-left: 1px double white;
-        border-right: 1px double white;
-    }
+    
 
     .imagens-alimentos{
         width: 20%;
@@ -460,4 +455,3 @@ select:hover{
     border: 1px double white;
     border-radius: 30px;
 }
-
