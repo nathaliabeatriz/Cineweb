@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineweb | Programação e Ingressos</title>
+    <link rel="stylesheet" href="Framework - foundation/foundation.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header id="cabecalho">
+            <button class="menu-icon" type="button" id="menu-hamburger"></button>
+            <div id="div-logo">
+                <img id="logo" src="Imagens/CineWeb logo.png" alt="logo">
+            </div>
+            <nav id="navegar">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="pagina2.html">
+                        <li>Programação e ingressos</li>
+                    </a>
+                    <a href="Página3.html">
+                        <li>Filmes da semana</li>
+                    </a>
+                    <a href="Página4.html">
+                        <li>Praça de alimentação</li>
+                    </a>
+                    <a href="Página5.html">
+                        <li>História</li>
+                    </a>
+                </ul>
+            </nav>
+
+        </header>
+
+        <nav id="navegar2">
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="pagina2.html">
+                    <li>Programação e ingressos</li>
+                </a>
+                <a href="Página3.html">
+                    <li>Filmes da semana</li>
+                </a>
+                <a href="Página4.html">
+                    <li>Praça de alimentação</li>
+                </a>
+                <a href="Página5.html">
+                    <li>História</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div id="banner">
+            <img style="border-radius: 10px;" src="Imagens/Banner promoção 2.png" alt="Banner com promoção">
+        </div>
+
+        <div id="tabela-programação">
+            <h1>Programação Semanal</h1>
+            <table>
+                <tr>
+                    <th>Filme</th>
+                    <th>Dia e Horário</th>
+                </tr>
+                <tr>
+                    <td>Duna</td>
+                    <td>07/11 <br>14:00 às 16:35</td>
+                </tr>
+                <tr>
+                    <td>Ron Bugado</td>
+                    <td>07/11 <br>15:30 às 17:30</td>
+                </tr>
+                <tr>
+                    <td>A menina que matou os pais</td>
+                    <td>07/11 <br>18:30 às 19:50</td>
+                </tr>
+                <tr>
+                    <td>007 - Sem tempo para morrer</td>
+                    <td>08/11 <br>19:00 às 21:43</td>
+                </tr>
+                <tr>
+                    <td>Uma janela para o mar</td>
+                    <td>09/11 <br>19:00 às 20:45</td>
+                </tr>
+                <tr>
+                    <td>Espíritos obscuros</td>
+                    <td>10/11 <br>19:00 às 20:39</td>
+                </tr>
+                <tr>
+                    <td>Mariguella</td>
+                    <td>11/11 <br>19:00 às 21:35</td>
+                </tr>
+                <tr>
+                    <td>Um lugar silencioso 2</td>
+                    <td>12/11 <br>19:00 às 20:37</td>
+                </tr>
+                <tr>
+                    <td>A Família Addams 2 - Pé na Estrada</td>
+                    <td>12/11 <br>20:00 às 21:50</td>
+                </tr>
+                <tr>
+                    <td>Eternos</td>
+                    <td>13/11 <br>14:00 às 15:37</td>
+                </tr>
+                <tr>
+                    <td>Venom - Tempo de Carnificina</td>
+                    <td>13/11 <br>16:00 às 17:25</td>
+                </tr>
+                <tr>
+                    <td>Halloween Kills - O terror continua</td>
+                    <td>13/11 <br>19:00 às 20:25</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h1>Formulário para compra de ingressos</h1>
+
+            <form>
+                <div id="compra-ingressos">
+                    <div>
+                        <label>Nome Completo:</label>
+                        <input class="entradas" type="text" placeholder="Digite aqui..." />
+                    </div>
+
+                    <div>
+                        <label>Qual filme você deseja assistir?</label>
+                         <select name="select">
+                            <option value="valor1">Duna</option>
+                            <option value="valor2" selected>Ron Bugado</option>
+                            <option value="valor3">A menina que matou os pais</option>
+                            <option value="valor4">007 - Sem tempo para morrer</option>
+                            <option value="valor5">007 - Sem tempo para morrer</option>
+                            <option value="valor6">007 - Sem tempo para morrer</option>
+                            <option value="valor7">007 - Sem tempo para morrer</option>
+                            <option value="valor8">007 - Sem tempo para morrer</option>
+                            <option value="valor9">007 - Sem tempo para morrer</option>
+                            <option value="valor10">007 - Sem tempo para morrer</option>
+                            <option value="valor11">007 - Sem tempo para morrer</option>
+                            <option value="valor12">007 - Sem tempo para morrer</option>
+                          </select>
+                    </div>
+
+                    <div>
+                        <label>Número de ingressos: </label>
+                        <input class="entradas" type="number">
+                    </div>
+
+                    <div>
+                        <label>Qual a forma de pagamento?</label>
+                        <input class="entradas" type="text">
+                    </div>
+
+                    <div>
+                        <label>E-mail:</label>
+                        <input class="entradas" type="text">
+                    </div>
+
+
+                    <p id="enviar-email">Atenção: um e-mail será enviado para você contendo as informações de como você
+                        deve efetuar o
+                        pagamento e após realização do pagamento enviaremos outro e-mail confirmando. Verifique sua
+                        caixa spam</p>
+                    <div>
+                        <input type="su">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <h3>Redes sociais</h3>
+
+            <ul>
+                <li class="redes-sociais">
+                    <a href="https://facebook.com/">
+                        <img src="Imagens/Redes sociais/facebook-13.png" alt="Facebook"></a>
+                    <a class="link" href="https://facebook.com/">Facebook</a>
+                </li>
+                <li class="redes-sociais">
+                    <a href="https://instagram.com/">
+                        <img src="Imagens/Redes sociais/Instagram.png" alt="Instagram"></a>
+                    <a class="link" style="color: rgb(255, 0, 128);" href="https://instagram.com/">Instagram</a>
+                </li>
+                <li class="redes-sociais">
+                    <a href="https://twitter.com/">
+                        <img src="Imagens/Redes sociais/Twitter.png" alt="Twitter"></a>
+                    <a class="link" href="https://twitter.com/">Twitter</a>
+                </li>
+            </ul>
+
+            <h6>Email para contato: <br>cineweb@gmail.com</h6>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="Framework - foundation/foundation.js"></script>
+    <script src="Framework - foundation/vendor.js"></script>
+</body>
+
+</html>
