@@ -7,3 +7,5 @@ Colaboradores do Trabalho:
 - Emilly Cristina Rosa de Oliveira
 - Bruno de Carvalho Ferreira
 - Igor Souza de Castro
+
+Obs: Este é um dos meus primeiros trabalhos FrontEnd, no qual eu utilizei HTML, CSS e JavaScript, além do framework Foundation.
