@@ -37,6 +37,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 O site é dividido em 5 páginas web, sendo elas: Home, Programação e Ingressos, Filmes da Semana, Praça de Alimentação e História
 
-- [Visite o projeto online](nathaliabeatriz.github.io/Cineweb/)
+- [Visite o projeto online](https://nathaliabeatriz.github.io/Cineweb/)
 
 ---
